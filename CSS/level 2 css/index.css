@@ -1,100 +1,117 @@
-*{
-    font-family: 'Courier New';
+/* default priority in css */
+/* This is also known as specificity */
+/* inline style> id > class > element */
+
+
+* {
+  font-family: "Courier New";
 }
 
-h1, h3{
-    color: #b92b27; 
+
+h1,
+h3 {
+  color: #b92b27;
 }
 
-#login{
-    background-color: white;
+#login {
+  background-color: white;
 }
-#signup{
-    background-color: #b92b27;
-    color: white;
-}
-
-.upvote{
-    background-color: green;
-    color:white;
-    font-weight: bolder;
+#signup {
+  background-color: #b92b27;
+  color: white;
 }
 
-.post a{
-    color: purple;
-    background-color: yellow;
+.upvote {
+  background-color: green;
+  color: white;
+  font-weight: bolder;
 }
 
-nav ul li a{
-    color: hotpink;
+.post a {
+  color: purple;
+  background-color: yellow;
 }
 
-p + h3{
-    text-decoration: underline;
+nav ul li a {
+  color: hotpink;
 }
 
-.upvote + button{
-    color: blueviolet;
-    background-color: cornflowerblue;
-    font-weight: bolder;
+p + h3 {
+  text-decoration: underline;
 }
 
-div > input{
-    background-color: brown;
+.upvote + button {
+  color: blueviolet;
+  background-color: cornflowerblue;
+  font-weight: bolder;
 }
 
-input [type="text"]{
-    color: red;
+div > input {
+  background-color: brown;
 }
 
-input [type="password"]{
-    color: green;
+input [type="text"] {
+  color: red;
 }
 
-input[type]{
-    background-color: ghostwhite;
+input [type="password"] {
+  color: green;
+}
+
+input[type] {
+  background-color: ghostwhite;
 }
 
 /* Pseudo Class => :hover, :active, :checked, :nth-of-type()  */
 
-button:hover{
-    background-color: black;
-    color: hotpink;
+button:hover {
+  background-color: black;
+  color: hotpink;
 }
 
-h3:hover{
-    text-decoration: none;
+h3:hover {
+  text-decoration: none;
 }
 
-button:active{
-    background-color: hotpink;
-    color: wheat;
+button:active {
+  background-color: hotpink;
+  color: wheat;
 }
 
-p:active{
-    font-weight: bold;
-    color: green;
+p:active {
+  font-weight: bold;
+  color: green;
 }
 
-input[type="radio"]:checked + label{
-    color: red;
-    font-weight: bold;
+input[type="radio"]:checked + label {
+  color: red;
+  font-weight: bold;
 }
 
-div:nth-of-type(2n){
-    background-color: pink;
+div:nth-of-type(2n) {
+  background-color: pink;
 }
 
 /* Pseudo Element => ::first-letter, ::first-line, ::selection*/
 
-h1::first-letter{  
-    color: green;
+h1::first-letter {
+  color: green;
 }
 
-p::first-line{
-    color: red;
+p::first-line {
+  color: red;
 }
 
-p::selection{
-    color: lightblue;
+p::selection {
+  color: lightblue;
+}
+
+/* cascading => it says that the lastest design for same selector will be implemented */
+
+h3 {
+  background-color: lightcyan;
+}
+
+h3 {
+  background-color: lightgreen; /* as per cascading this will be implemented */
 }
