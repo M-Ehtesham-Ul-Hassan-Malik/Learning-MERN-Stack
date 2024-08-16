@@ -1,0 +1,12 @@
+/* Inheritacne => child classes and elements inherit the properties of parent class except input & buttons */
+div{
+    background-color: pink ;
+}
+
+input{
+    background-color: inherit;  /* for input & buttons we specifaclly need to inherit since they do not directly inherit */
+}
+
+button{
+    background-color: inherit;
+}
