@@ -55,6 +55,8 @@ input[type]{
     background-color: ghostwhite;
 }
 
+/* Pseudo Class => :hover, :active, :checked, :nth-of-type()  */
+
 button:hover{
     background-color: black;
     color: hotpink;
@@ -81,4 +83,18 @@ input[type="radio"]:checked + label{
 
 div:nth-of-type(2n){
     background-color: pink;
+}
+
+/* Pseudo Element => ::first-letter, ::first-line, ::selection*/
+
+h1::first-letter{  
+    color: green;
+}
+
+p::first-line{
+    color: red;
+}
+
+p::selection{
+    color: lightblue;
 }
