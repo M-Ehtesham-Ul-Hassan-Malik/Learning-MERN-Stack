@@ -8,6 +8,11 @@
 }
 
 
+/* !important is used to tell css that its not going to change and it has highes priority in css */
+h3{
+  background-color: black !important;
+}
+
 h1,
 h3 {
   color: #b92b27;
