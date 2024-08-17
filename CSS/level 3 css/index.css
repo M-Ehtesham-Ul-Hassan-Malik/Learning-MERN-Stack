@@ -37,3 +37,18 @@ margin-bottom: 20px;
 h1{
     border: 2px dashed darkgreen;
 }
+
+/* Display Property:
+By display property we can change block element into inline and vice versa
+*/
+
+h2{
+    display: inline;
+    /* h2 is a block element but here we converted it into inline element */
+}
+span{
+    display: block;
+    h2 is a block element but here we converted it into inline element
+    /* span[ is a inline element but here we converted it into block element */
+
+}
