@@ -18,6 +18,17 @@ div{
 4. clock wise (top|right|bottom|left) => padding: 1px 2px 3px 4px;
 */
  padding-top: 30px;
+
+/* margin => shorthand
+1. for all 4 sides => margin: 50 px;
+2. for top & bottom | left & right => margin: 1px 2px;
+3. for top | left & right | bottom => margin: 1px 2px 3px;
+4. clock wise (top|right|bottom|left) => margin: 1px 2px 3px 4px;
+*/
+margin-bottom: 20px;
+
+
+
 }
 
 /* border shorthand */
