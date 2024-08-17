@@ -2,4 +2,19 @@ div{
     height: 150px;
     width: 500px;
     background-color: pink;
+
+    /* giving border */
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    /* border sides => left, right, top, bottom */
+    border-left: 10px dashed blue;
 }
+
+/* border shorthand */
+/* border: width | style | color */
+
+h1{
+    border: 2px dashed darkgreen;
+}
+
