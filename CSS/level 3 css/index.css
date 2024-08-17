@@ -9,6 +9,8 @@ div{
     border-style: solid;
     /* border sides => left, right, top, bottom */
     border-left: 10px dashed blue;
+    /* border-radius => used to round the borders like buttons or google search bar etc */
+    border-radius: 10px;
 }
 
 /* border shorthand */
