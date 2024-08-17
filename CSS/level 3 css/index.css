@@ -48,7 +48,6 @@ h2{
 }
 span{
     display: block;
-    h2 is a block element but here we converted it into inline element
     /* span[ is a inline element but here we converted it into block element */
 
 }
