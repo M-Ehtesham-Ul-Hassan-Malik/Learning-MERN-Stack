@@ -40,6 +40,11 @@ h1{
 
 /* Display Property:
 By display property we can change block element into inline and vice versa
+
+display: inline
+display: block
+display: inline-block => this will convert block into incline along with all css properties
+display: none => this will hide all the properties
 */
 
 h2{
