@@ -12,3 +12,16 @@ In rgba 'a' stands for alpha channel used to describe the opacity of color betwe
     opacity: 0.5;
     /* opacity is used for defining the visibility of the element */
 }
+
+#box{
+        width: 400px;
+        height: 200px;
+        background-color: aquamarine;
+        margin: 10px auto;
+        color: white;
+        background-image: url(bg_img.jpg);
+        background-size: cover;
+/*      background-image: url(path_to_img)
+        background-size:cover/contain/auto
+*/
+}
