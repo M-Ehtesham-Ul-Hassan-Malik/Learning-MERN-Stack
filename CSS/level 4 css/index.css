@@ -1,0 +1,14 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(177, 41, 41, 0.3); 
+/* Alpha Channel
+In rgba 'a' stands for alpha channel used to describe the opacity of color between the range of 0 to 1
+*/
+}
+
+#opacity{
+    background-color: aqua;
+    opacity: 0.5;
+    /* opacity is used for defining the visibility of the element */
+}
