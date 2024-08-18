@@ -56,3 +56,12 @@ span{
     /* span[ is a inline element but here we converted it into block element */
 
 }
+
+
+/* Relative Units in CSS
+% => it is used with respect to parent element.
+em => it is used for fonts with respect to parent elements.
+drawbacks of em => snowball effect in nested elements.
+Rem (Root em) => font size of the root element.
+
+*/
