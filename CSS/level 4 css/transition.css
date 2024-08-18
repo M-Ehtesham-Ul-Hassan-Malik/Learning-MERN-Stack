@@ -1,0 +1,17 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: violet;
+    margin: 0 auto; /* shorthand to center the element*/
+    margin-top: 20px;
+     /* transition is change between 1 state to another */
+     /* Transition shorthand
+     transition: property_name|duration|timing_function|delay
+     */ 
+    transition: margin-top 2s ease 0.2s ;
+
+}
+div:hover{
+    background-color: pink;
+    margin-top: 400px;  
+}
