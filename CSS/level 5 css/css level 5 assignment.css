@@ -1,0 +1,48 @@
+#container{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+
+}
+/* Q2. Re-create the following layout using flexbox as closely as possible :
+Logo | Home | About | Contact
+- Take the container height & width as(50px, 900px) & child height & width as
+(50px, 80px).
+- Use font-size as 24px */
+
+#navbar{
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.option{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    margin-left: 5px;
+    line-height: 50px;
+    border-radius: 10px;
+}
