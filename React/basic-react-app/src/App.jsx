@@ -1,5 +1,6 @@
 import "./App.css";
 import Description from "./Description";
+import ProductTab from "./ProductTab";
 function Title() {
   return <h1>I am the Title</h1>;
 }
@@ -8,11 +9,12 @@ function Title() {
 
 function App() {
   return (
-    <div>
-      <Title />
-      <h2>In description we have</h2>
-      <Description/>
-    </div>
+    // <div>
+    //   <Title />
+    //   <h2>In description we have</h2>
+    //   <Description/>
+    // </div>
+    <ProductTab/>
   );
 }
 
