@@ -3,9 +3,9 @@ import Product from "./Product";
 function ProductTab(){
     return(
         <>
-        <Product/>
-        <Product/>
-        <Product/>
+        <Product title="Mobile Phone" Price={40000}/>
+        <Product title="Laptop" Price={59999}/>
+        <Product title="Pen" Price={40}/>
         </>
     );
 }
